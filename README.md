@@ -24,7 +24,8 @@ A coupled simulation system based on ANUGA and SWMM for modeling urban surface-d
 ## File Structure and Descriptions
 
 
-SWAG_COUPLED_MODEL
+text
+/SWAG_COUPLED_MODEL
 ├── Bantian_simulation.ipynb # Main ANUGA simulation program
 │ - Mesh generation and configuration
 │ - DEM data import
@@ -57,6 +58,7 @@ SWAG_COUPLED_MODEL
 └── shp/ # Spatial data folder
 ├── output_shapefile.cpg # Character encoding file
 └── add_buildings.cpg # Building data encoding file
+
 
 ## Usage Instructions
 ### 1. ANUGA Simulation:
