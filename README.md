@@ -22,39 +22,36 @@ A coupled simulation system based on ANUGA and SWMM for modeling urban surface-d
 - Time series data exchange
 
 ## File Structure and Descriptions
+
 /SWAG_COUPLED_MODEL
 ├── Bantian_simulation.ipynb # Main ANUGA simulation program
-│ - Mesh generation and configuration
-│ - DEM data import
-│ - Boundary condition setup
-│ - Simulation execution and visualization
-│ - Results export functionality
-│
+│   - Mesh generation and configuration
+│   - DEM data import
+│   - Boundary condition setup
+│   - Simulation execution and visualization
+│   - Results export functionality
 ├── extract_information_from_swmm.ipynb # SWMM data processing program
-│ - Node name batch modification
-│ - Overflow statistics calculation
-│ - Result format conversion for coupling
-│ - Time series data extraction
-│
+│   - Node name batch modification
+│   - Overflow statistics calculation
+│   - Result format conversion for coupling
+│   - Time series data extraction
 ├── swmm_folder/ # SWMM related files
-│ ├── swmm.inp # SWMM input file
-│ │ - Network structure definition
-│ │ - Simulation parameters
-│ │ - Rainfall data
-│ │
-│ ├── swmm.rpt # SWMM report file
-│ │ - Simulation results
-│ │ - Error messages
-│ │ - Performance statistics
-│ │
-│ └── swmm.ini # SWMM configuration file
-│ - Display settings
-│ - Map options
-│ - Default values
-│
-└── shp/ # Spatial data folder
+│   ├── swmm.inp # SWMM input file
+│   │   - Network structure definition
+│   │   - Simulation parameters
+│   │   - Rainfall data
+│   ├── swmm.rpt # SWMM report file
+│   │   - Simulation results
+│   │   - Error messages
+│   │   - Performance statistics
+│   ├── swmm.ini # SWMM configuration file
+│       - Display settings
+│       - Map options
+│       - Default values
+├── shp/ # Spatial data folder
 ├── output_shapefile.cpg # Character encoding file
 └── add_buildings.cpg # Building data encoding file
+
 
 
 ## Usage Instructions
